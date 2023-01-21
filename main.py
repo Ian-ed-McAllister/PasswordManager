@@ -42,7 +42,6 @@ class App(customtkinter.CTk):
                                                                            command=self.change_appearance_mode_event)
             self.appearance_mode_optionemenu.grid(row=6, column=0, padx=20, pady=(10, 10))
 
-
             self.password_generator_frame = customtkinter.CTkFrame(self)
             self.password_generator_frame.grid(row=0,rowspan=7,column=1,columnspan=3,padx=(20,20),pady=(20,20),sticky="nsew")
 
