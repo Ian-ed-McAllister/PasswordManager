@@ -51,7 +51,6 @@ class App(customtkinter.CTk):
             self.number_of_chars_label = customtkinter.CTkLabel(self.password_generator_frame,text=f"Number of characters:{self.numberChar}")
             self.number_of_chars_label.grid(column=1,row=3,padx=(20, 10), pady=(10, 10))
 
-
             self.include_numbers_check = customtkinter.CTkCheckBox(self.password_generator_frame,
                                                                    text="Include numbers",
                                                                    command=self.generate_password)
